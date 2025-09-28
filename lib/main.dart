@@ -9,15 +9,10 @@ import 'package:intern_foodapp_assignment/pages/hotel_detail.dart';
 import 'package:intern_foodapp_assignment/screen/splash_screen.dart';
 
 void main() {
-  // 1️⃣ Register globally with GetX
   Get.put(CartBloc());
 
-  // 2️⃣ Wrap app with BlocProvider for context access
   runApp(
-    BlocProvider(
-      create: (_) => Get.find<CartBloc>(), // use the same instance
-      child: const MainApp(),
-    ),
+    BlocProvider(create: (_) => Get.find<CartBloc>(), child: const MainApp()),
   );
 }
 

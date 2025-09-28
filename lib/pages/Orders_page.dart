@@ -27,7 +27,7 @@ class OrderHistoryPage extends StatelessWidget {
         backgroundColor: MyColors.accent,
         leading: IconButton(
           onPressed: () {
-            Get.toNamed("/home"); // navigate to home
+            Get.toNamed("/home");
           },
           icon: const Icon(Icons.home_outlined),
         ),
@@ -36,7 +36,7 @@ class OrderHistoryPage extends StatelessWidget {
         padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 8),
         child: ElevatedButton(
           onPressed: () {
-            Get.toNamed("/home"); // back to home page
+            Get.toNamed("/home");
           },
           style: ElevatedButton.styleFrom(
             backgroundColor: MyColors.accent,

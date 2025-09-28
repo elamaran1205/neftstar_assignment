@@ -40,7 +40,7 @@ class CartPage extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(height: 16),
-                  // Location Card
+
                   Card(
                     child: ListTile(
                       leading: const Icon(
@@ -59,7 +59,6 @@ class CartPage extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(height: 16),
-                  // Payment Options Card
                   Card(
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(12),

@@ -1,4 +1,3 @@
-// lib/blocs/cart/cart_bloc.dart
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intern_foodapp_assignment/mockData/foodmenu_data.dart';
 import 'cart_event.dart';

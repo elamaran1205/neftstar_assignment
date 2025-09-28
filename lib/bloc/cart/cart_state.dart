@@ -1,4 +1,3 @@
-// lib/blocs/cart/cart_state.dart
 import 'package:equatable/equatable.dart';
 import 'package:intern_foodapp_assignment/mockData/foodmenu_data.dart'
     show Foodmenu;
