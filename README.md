@@ -48,9 +48,9 @@ Copy code
    cd food-order-app
 Install dependencies
 
-bash
-Copy code
-flutter pub get
+bash 
+Copy code 
+flutter pub get 
 Run the app
 
 bash
